@@ -1,0 +1,62 @@
+/* General Styling */
+/* container fluids under main */
+.container, main .container-fluid{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+img {
+    max-width: 100%;
+}
+
+/*Nav Styling*/
+
+.nav-link{
+    font-size: x-large;
+    padding: 10px 20px;
+    margin-right: 3em; /*em -> value relative to device*/
+
+}
+
+/* Home Styling */
+h1  {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#tagline {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(21, 23, 145);
+}
+
+.carousel-caption{
+    color: black;
+}
+
+/* Skills Styling */
+ion-icon {
+    font-size: 40px;
+    margin-top: 1px;
+}
+
+.progress-bar{
+    background-color: darkblue !important; /* !important overides bootstrap*/
+}
+
+/* Footer Styling */
+
+footer {
+    padding: 5rem 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    
+}
